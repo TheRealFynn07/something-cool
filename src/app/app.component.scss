@@ -1,0 +1,26 @@
+.container {
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.nav-container {
+
+    a {
+        padding: 50px;
+    }
+
+    button {
+        width: auto;
+        height: 50px;
+        background-color: rgba(155,155,155,0.2);
+        border:2px solid rgba(0,0,0,0.05);
+        border-radius: 6px;
+        cursor: pointer;
+        color: white;
+        margin-left: 20px;
+        
+        &:hover {
+            background-color: rgba(0,0,0,0.05);
+        }
+    }
+}
